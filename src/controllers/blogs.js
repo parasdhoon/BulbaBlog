@@ -11,7 +11,7 @@ async function createNewBlog(userId, title, body) {
     return blog
 }
 
-async function showAllBlogs(query) {
+async function findAllBlogs(query) {
 
     // TODO: Handle query params
     const blogs = await Blogs.findAll({
@@ -23,7 +23,7 @@ async function showAllBlogs(query) {
 
 module.exports = {
     createNewBlog,
-    showAllBlogs
+    findAllBlogs
 }
 
 /* Test Code */
