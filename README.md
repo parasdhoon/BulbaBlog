@@ -34,8 +34,9 @@ src
 └── public
     │   index.html                          # first / home page
     │
-    ├── app                                 # our own frontend js code
-    │   └── common.js
+    ├── app                                 # our own frontend js and css code
+    │   ├── common.js
+    │   └── common.css
     │
     ├── components                          # our own html snippets
     │   └── navbar.html
@@ -52,7 +53,6 @@ src
         ├── bootstrap.js
         ├── jquery.js
         └── popper.js
-
 ```
 
 ## Logic
