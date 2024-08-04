@@ -48,9 +48,9 @@ src
     -filter by username
     -filter by query contained in title (search by title)
 
-3. **edit posts** `TBD`
+3. **edit posts:** `TBD`
 
-4. **delete posts** `TBD`
+4. **delete posts:** `TBD`
 
 ### Comments
 
