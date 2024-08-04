@@ -1,0 +1,4 @@
+$(() => {
+
+    $('#navbar').load('./navbar.html')
+})
